@@ -1,5 +1,5 @@
 """
-Experiment 1: Throughput and Memory vs Batch Size
+Throughput and Memory vs Batch Size
 """
 
 import torch, time, json
