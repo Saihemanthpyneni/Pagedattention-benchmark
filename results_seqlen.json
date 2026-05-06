@@ -1,0 +1,42 @@
+[
+  {
+    "system": "vLLM",
+    "seq_len": 64,
+    "latency_ms": 4.527
+  },
+  {
+    "system": "vLLM",
+    "seq_len": 128,
+    "latency_ms": 5.08
+  },
+  {
+    "system": "vLLM",
+    "seq_len": 256,
+    "latency_ms": 4.364
+  },
+  {
+    "system": "vLLM",
+    "seq_len": 512,
+    "latency_ms": 3.946
+  },
+  {
+    "system": "HuggingFace",
+    "seq_len": 64,
+    "latency_ms": 10.224
+  },
+  {
+    "system": "HuggingFace",
+    "seq_len": 128,
+    "latency_ms": 4.756
+  },
+  {
+    "system": "HuggingFace",
+    "seq_len": 256,
+    "latency_ms": 4.753
+  },
+  {
+    "system": "HuggingFace",
+    "seq_len": 512,
+    "latency_ms": 4.709
+  }
+]

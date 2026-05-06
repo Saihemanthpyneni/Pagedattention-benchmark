@@ -1,0 +1,37 @@
+[
+  {
+    "system": "HuggingFace",
+    "batch_size": 1,
+    "throughput": 54.08,
+    "latency_ms": 18.491,
+    "memory_gb": 2.695
+  },
+  {
+    "system": "HuggingFace",
+    "batch_size": 2,
+    "throughput": 89.21,
+    "latency_ms": 11.21,
+    "memory_gb": 2.752
+  },
+  {
+    "system": "HuggingFace",
+    "batch_size": 4,
+    "throughput": 217.72,
+    "latency_ms": 4.593,
+    "memory_gb": 2.855
+  },
+  {
+    "system": "HuggingFace",
+    "batch_size": 8,
+    "throughput": 381.93,
+    "latency_ms": 2.618,
+    "memory_gb": 3.017
+  },
+  {
+    "system": "HuggingFace",
+    "batch_size": 16,
+    "throughput": 581.91,
+    "latency_ms": 1.718,
+    "memory_gb": 3.385
+  }
+]

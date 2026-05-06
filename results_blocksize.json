@@ -1,0 +1,17 @@
+[
+  {
+    "block_size": 8,
+    "throughput": 481.36,
+    "latency_ms": 2.077
+  },
+  {
+    "block_size": 16,
+    "throughput": 471.13,
+    "latency_ms": 2.122
+  },
+  {
+    "block_size": 32,
+    "throughput": 474.9,
+    "latency_ms": 2.106
+  }
+]
