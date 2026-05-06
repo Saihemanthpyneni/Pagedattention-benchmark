@@ -125,24 +125,6 @@ all four JSON files and generates all six figures as a single PNG.
 
 ---
 
-## Repository Structure
-pagedattention-benchmark/
-│
-├── README.md                  — this file
-├── requirements.txt           — python dependencies
-│
-├── benchmark_hf.py            — HuggingFace baseline benchmark
-├── benchmark_vllm.py          — vLLM benchmark
-├── benchmark_seqlen.py        — latency vs sequence length
-├── benchmark_blocksize.py     — block size ablation
-├── plot_results.py            — generates all 6 charts
-│
-├── results_hf.json            — HuggingFace raw results
-├── results_vllm.json          — vLLM raw results
-├── results_seqlen.json        — sequence length results
-├── results_blocksize.json     — block size ablation results
-│
-└── all_charts.png             — all 6 figures in one image
 
 ## Team
 
