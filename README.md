@@ -1,6 +1,6 @@
 # Pagedattention-benchmark
 
-Benchmarking vLLM and HuggingFace for LLM Serving: A Study of PagedAttention on Consumer Hardware
+Benchmarking vLLM and HuggingFace for LLM Serving: A Study of PagedAttention on Consumer Hardware.
 
 ## Overview
 
