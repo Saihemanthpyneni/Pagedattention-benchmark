@@ -1,8 +1,3 @@
-"""
-Generate Individual Publication-Ready Figures for vLLM Benchmark Report
-
-"""
-
 import matplotlib.pyplot as plt
 import numpy as np
 import os
