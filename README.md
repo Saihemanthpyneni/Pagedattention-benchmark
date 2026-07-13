@@ -1,6 +1,6 @@
 # Pagedattention-benchmark
 
-Benchmarking vLLM and HuggingFace for LLM Serving: A Study of PagedAttention on Consumer Hardware
+Benchmarking vLLM and HuggingFace for LLM Serving: A Study of PagedAttention on Consumer Hardware 
 
 ## Overview
 
@@ -12,7 +12,7 @@ This project compares vLLM (with PagedAttention) vs standard HuggingFace generat
 - **HuggingFace hits 8GB memory limit**, vLLM uses only 6.24GB with 1.74GB free
 - **Block size 16 optimal on RTX 4060** (matches paper's finding of 16 on A100)
 - **vLLM advantage grows with batch size and sequence length**
-- **Memory efficiency improves from 60-80% waste to <4% waste**
+- **Memory efficiency improves from 60-80% waste to <4% waste
 
 ## Hardware Requirements
 
